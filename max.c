@@ -11,15 +11,10 @@
 * Author - Amittai Kalisky
 -------------------------------------------------------*/
 int main() {
-    int x = 10;
+    int x = 1000;
     int y = 200;
     int z;
-    if (x > y){
-        z = x;
-    }
-    else{
-        z = y;
-    }
+    z = x > y ? x : y;
     printf("%d\n", z);
     return 0;
 }

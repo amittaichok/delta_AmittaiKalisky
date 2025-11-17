@@ -14,7 +14,7 @@ int main() {
     int x = 1000;
     int y = 200;
     int z;
-    z = x > y ? x : y;
+    z = (x > y)*(x) + (y > x)*(y) + (y==x)*(x);
     printf("%d\n", z);
     return 0;
 }
